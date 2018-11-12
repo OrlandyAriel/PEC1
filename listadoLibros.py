@@ -33,7 +33,7 @@ class ListadoLibros:
     
     def extraerDatos(self, url, genero, dicLibros):
         '''
-        Este método extrae los datos de la los libros de la página.
+        Este método extrae los datos de los libros de la página.
         @param url: primera parte de la url
         @param genero: completa la url
         @param dicLibros: diccionario donde se almacenan los datos de los libros desglozados.
@@ -82,7 +82,7 @@ class ListadoLibros:
     
     def getDato(self, estadisticasCompletas, patron):
         '''
-        Método que partiendo de una cadena, obtiene los datos especificos según el parámetro patron, este será una 
+        Método que, partiendo de una cadena, obtiene los datos específicos según el parámetro patrón, este será una 
         expresión regular.
         '''
         resultado = re.compile(patron)
